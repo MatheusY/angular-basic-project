@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { FormsModule } from '@angular/forms';
+import { DropdownDirective } from './shared/dropdown/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FormsModule } from '@angular/forms';
     RecipeDetailComponent,
     RecipesComponent,
     ShoppingEditComponent,
+    DropdownDirective,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
