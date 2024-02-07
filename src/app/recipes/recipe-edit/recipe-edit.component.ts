@@ -28,7 +28,7 @@ export class RecipeEditComponent implements OnInit {
   }
 
   private initForm() {
-    let recipeId = Math.random() * 1000000;
+    let recipeId = Math.trunc(Math.random() * 1000000);
     let recipeName = '';
     let recipeImagePath = '';
     let recipeDescription = '';
